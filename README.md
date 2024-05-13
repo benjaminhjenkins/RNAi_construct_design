@@ -13,6 +13,7 @@ Or manually installed with external dependencies. Below are listed the versions 
   - faSomeRecords=
   - fastx_toolkit=0.0.6
   - blastn=2.14.1
+  - seqkit=2.8.0
 ```
 
 ## Usage
