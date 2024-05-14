@@ -40,7 +40,7 @@ This will generate a multi-sequence FASTA file of NT sequences.
 
 ### 2 Make constructs
 
-Next, edit the following script _2_make_constructs.sh_ so that a = your database to search for overlap (i.e. your organism genome). Once all paths are correct, run:
+Next, edit the script for "_2_make_constructs.sh_" so that "a" = your database to search for overlap (i.e. your organism genome). Once all paths are correct, run:
 
 ` bash 2_make_constructs.sh `
 
