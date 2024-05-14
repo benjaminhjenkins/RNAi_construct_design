@@ -20,11 +20,11 @@ Or manually installed with external dependencies. Below are listed the versions 
 
 - If you're starting with NT sequences, name this "input_nt.fasta" and go to _**2 Make constructs**_.
 - If you have a list of accession numbers, name this "accessions.tab" and go to _**1 Get input nt**_.
-- If you're starting with AA sequences, see below.
+- If you're starting with AA sequences, name this "input.fasta" and go to _**0 Get accessions**_.
   
 ### 0 Get accessions 
 
-If you are starting with AA sequences, paste your multi-sequence FASTA into the working directory and name it "input.fasta". Then run:
+Paste your multi-sequence FASTA named "input.fasta" into your working directory, then run:
 
 ` bash 0_get_accessions.sh `
 
