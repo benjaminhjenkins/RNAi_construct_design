@@ -44,7 +44,7 @@ Next, edit the script for "_2_make_constructs.sh_" so that "a" = your database t
 
 ` bash 2_make_constructs.sh `
 
-This will iteratively search 150-nt regions of each NT sequence against your database, starting with 10-159 (v1) and shifting 50-nt each round, ending with 310-459 (v7). Accession numbers for squences with a single hit (itself) will be pasted into the corresponding _region.tab_ file (i.e. 10-159.tab) at the first instance. Sequences with multiple hits are taken through to the next round of searching in the next 150-nt region. This is repeated until as many sequences as possible are assigned a region with a single-hit. 
+This will iteratively search 150-nt regions of each NT sequence against your database, starting with 10-159 (v1) and shifting 50-nt each round, ending with 310-459 (v7). Accession numbers for squences with a single-hit (itself) will be pasted into the corresponding _region.tab_ file (i.e. 10-159.tab) at the first instance. Sequences with multiple hits are taken to the next round of searching in the next 150-nt region. This is repeated until as many sequences as possible are assigned a region with a single-hit. 
 
 For any sequences which are not assingned a region, check these manually using the "...check_align.tab" file contained within each directory. These are genes with possible paralogs or large gene families sharing homology.
 
