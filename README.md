@@ -54,7 +54,7 @@ For sequences manually searched for the best region, paste the accession number 
 
 Once all sequences have been assigned a region (automatically and manually), run:
 
-' bash 3_get_construct_sequences '
+` bash 3_get_construct_sequences.sh `
 
 This will pull the 150-nt sequence for each accession number based on each desginated region. 
 
@@ -62,6 +62,6 @@ This will pull the 150-nt sequence for each accession number based on each desgi
 
 Finally, run:
 
-' bash 4_add_restriction_sites' 
+` bash 4_add_restriction_sites.sh `
 
 This will assign restriction sites to the start and end of each sequence avoiding internal sites present in the sequence. The names of each restriction site pair are then assigned to the final column. This is the format that sequences will be submitted for synthesis. 
