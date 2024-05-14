@@ -1,5 +1,5 @@
 # RNAi_construct_design
-A pipeline for designing 150-nt dsRNA constructs for RNAi knock-down from multiple sequences (NT, AA or accession number)
+A pipeline for designing 150-nt dsRNA constructs for RNAi knock-down from a multi-sequence dataset
 
 ## Install dependencies
 Dependencies can be installed using conda:
